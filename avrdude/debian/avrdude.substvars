@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.4), libc6 (>= 2.13-28), libelf1 (>= 0.131), libftdi1 (>= 0.20), libusb-0.1-4 (>= 2:0.1.12), libusb-1.0-0 (>= 2:1.0.8)
+misc:Depends=

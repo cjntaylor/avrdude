@@ -1,0 +1,18 @@
+Source: avrdude
+Section: electronics
+Priority: extra
+Maintainer: Colin Taylor <cjntaylor@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.3
+Homepage: http://savannah.nongnu.org/projects/avrdude/
+Vcs-Git: https://github.com/cjntaylor/avrdude.git
+
+Package: avrdude
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+#libc6 (>= 2.13-28), libftdi1 (>= 0.20), libncurses5 (>= 5.5-5~), libreadline6 (>= 6.0), libtinfo5, libusb-0.1-4 (>= 2:0.1.12)
+Description: software for programming Atmel AVR microcontrollers
+ AVRDUDE is an open source utility to download/upload/manipulate the ROM and
+ EEPROM contents of AVR microcontrollers using the in-system programming
+ technique (ISP).
+
